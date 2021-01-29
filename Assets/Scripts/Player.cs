@@ -11,11 +11,26 @@ public class Player : MonoBehaviour
     [SerializeField]
     private BoxCollider2D playerBounds;
 
+    [Header("Shoot")]
+    [SerializeField]
+    private Transform shootPivot;
+
+    [SerializeField]
+    private GameObject shootPrefab;
+
+    [SerializeField]
+    private GameObject flashGameObject;
+
+    [SerializeField]
+    private float hideFlashDelay = 0.1f;
+
     private void Update()
     {
         Move();
 
         ApplyBounds();
+
+        Shoot();
     }
 
     private void Move()
@@ -45,5 +60,28 @@ public class Player : MonoBehaviour
             Mathf.Clamp(transform.position.y, minY, maxY),
             transform.position.z
         );
+    }
+
+    private void Shoot()
+    {
+        if (!Input.GetButtonDown("Fire1"))
+        {
+            return;
+        }
+
+        // Shoot
+
+        Instantiate(shootPrefab, shootPivot.position, shootPivot.rotation);
+
+        // Flash
+
+        flashGameObject.SetActive(true);
+
+        Invoke(nameof(HideFlash), hideFlashDelay);
+    }
+
+    private void HideFlash()
+    {
+        flashGameObject.SetActive(false);
     }
 }
