@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3efe277f-7c69-49cb-9e80-48f9b053524e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/.idea.Fabrica_SpaceShooter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fabrica_SpaceShooter/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid Small.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid Small.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Flash.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Flash.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Hit.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Hit.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shoot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shoot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioFxManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioFxManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterTime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InfiniteBackground.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InfiniteBackground.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/Hit-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/Hit-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Hit/hit4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/explosion.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/hit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/hit.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/shot 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/shot 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/shot 2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/Sound FX/shot 2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/asteroids.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/asteroids/asteroid-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/asteroids/asteroid-small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/asteroids/asteroid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/asteroids/asteroid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-planet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-planet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/background/bg-stars.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy-animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy-animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/enemy/enemy5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion-animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion-animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/explosion/explosion5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/flash.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/flash/flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/flash/flash.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.flac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.flac.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/music/space-asteroids.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/Player-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/Player-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/player/player3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/Shot-Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/Shot-Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork/shoot/shoot2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Scenes/demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Space Shooter Assets/Scenes/demo.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Space Shooter Assets/Artwork.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1nlJKMjfTwF7iG9Ri9o77VGWpz9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3efe277f-7c69-49cb-9e80-48f9b053524e" name="Default Changelist" comment="" />
+      <created>1611958678838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611958678838</updated>
+      <workItem from="1611958684296" duration="681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
