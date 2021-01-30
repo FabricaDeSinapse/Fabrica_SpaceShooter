@@ -527,7 +527,6 @@ GameObject:
   - component: {fileID: 476973244}
   - component: {fileID: 476973246}
   - component: {fileID: 476973247}
-  - component: {fileID: 476973248}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -548,6 +547,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.7
+  spriteRenderer: {fileID: 476973244}
+  moveUp: {fileID: 21300000, guid: 10af89f5b9af24605a83d05e21dfdeb5, type: 3}
+  moveRight: {fileID: 21300000, guid: 4f3ca6c2ba5724c4c90aee322cf79137, type: 3}
+  moveDown: {fileID: 21300000, guid: 65019c4b741d6493d97d4072eff8e23b, type: 3}
   playerBounds: {fileID: 828008767}
   shootPivot: {fileID: 399439085}
   shootPrefab: {fileID: 3804028898955316579, guid: c12ff29b4756371418e64a1d0ef5858a,
@@ -682,25 +685,6 @@ PolygonCollider2D:
       - {x: 0.11648911, y: -0.033064954}
       - {x: 0.11403251, y: 0.033771716}
       - {x: 0.06508685, y: 0.04569534}
---- !u!95 &476973248
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476973242}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b84e0ce3f3eb5f41a3d84d6ff0000e3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

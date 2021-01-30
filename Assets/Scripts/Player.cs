@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -8,6 +7,18 @@ public class Player : MonoBehaviour
     [Range(0f, 5f)]
     [SerializeField]
     private float moveSpeed = 1f;
+
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
+
+    [SerializeField]
+    private Sprite moveUp;
+
+    [SerializeField]
+    private Sprite moveRight;
+
+    [SerializeField]
+    private Sprite moveDown;
 
     [Header("Bounds")]
     [SerializeField]
@@ -77,6 +88,26 @@ public class Player : MonoBehaviour
         );
 
         transform.Translate(move);
+
+        // Update Sprite Renderer
+
+        var sprite = moveRight;
+
+        Debug.Log(v);
+
+        if (v > 0.2f)
+        {
+            sprite = moveUp;
+        }
+        else if (v < -0.2f)
+        {
+            sprite = moveDown;
+        }
+
+        if (spriteRenderer.sprite != sprite)
+        {
+            spriteRenderer.sprite = sprite;
+        }
     }
 
     private void ApplyBounds()
