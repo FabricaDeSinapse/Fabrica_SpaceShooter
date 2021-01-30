@@ -61,10 +61,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e1db93e91b82f43965b7675837aa39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 6152537741971077167, guid: e6ced423230973045bb8b34ca9dcb398,
-    type: 3}
   hitPrefab: {fileID: 2246138719237858706, guid: 999c7efba5bd5484586c568ce07784fd,
     type: 3}
+  hitFx:
+    clip: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+    volume: 0.2
   healthPoints: 3
 --- !u!212 &8621716878647660815
 SpriteRenderer:

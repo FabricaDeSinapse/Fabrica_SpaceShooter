@@ -37,6 +37,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float hideFlashDelay = 0.1f;
 
+    [SerializeField]
+    private ClipWithVolume shootFx;
+
     [Header("Death")]
     [SerializeField]
     private Transform deathPosition;
@@ -140,6 +143,8 @@ public class Player : MonoBehaviour
         // Shoot
 
         Instantiate(shootPrefab, shootPivot.position, shootPivot.rotation);
+
+        AudioManager.Play(shootFx);
 
         // Flash
 
