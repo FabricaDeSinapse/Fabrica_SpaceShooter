@@ -1,18 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class InfiniteBackground : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private float moveAmount = 2.72f;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (transform.position.x < -moveAmount)
+        {
+            transform.Translate(Vector2.right * moveAmount * 2);
+        }
     }
 }
