@@ -39,9 +39,6 @@ public class Player : MonoBehaviour
 
     [Header("Death")]
     [SerializeField]
-    private GameObject explosionPrefab;
-
-    [SerializeField]
     private Transform deathPosition;
 
     private Vector3 _initialDeathPosition;
@@ -92,8 +89,6 @@ public class Player : MonoBehaviour
         // Update Sprite Renderer
 
         var sprite = moveRight;
-
-        Debug.Log(v);
 
         if (v > 0.2f)
         {
@@ -168,7 +163,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             // Destroy Enemy & Spawn an Explosion
-            Instantiate(explosionPrefab, other.transform.position, other.transform.rotation);
+            ExplosionManager.Instance.Create(other.transform.position, other.transform.rotation);
 
             Destroy(other.gameObject);
 
@@ -180,7 +175,7 @@ public class Player : MonoBehaviour
     {
         _isDead = true;
 
-        Instantiate(explosionPrefab, transform.position, transform.rotation);
+        ExplosionManager.Instance.Create(transform.position, transform.rotation);
 
         transform.position = _initialDeathPosition;
 

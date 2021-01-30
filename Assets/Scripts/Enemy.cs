@@ -3,10 +3,10 @@
 public class Enemy : MonoBehaviour
 {
     [SerializeField]
-    private GameObject explosionPrefab;
+    private GameObject hitPrefab;
 
     [SerializeField]
-    private GameObject hitPrefab;
+    private ClipWithVolume hitFx;
 
     [SerializeField]
     private int healthPoints = 1;
@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour
 
             Instantiate(hitPrefab, other.transform.position, hitPrefab.transform.rotation);
 
+            AudioManager.Play(hitFx);
+
             Destroy(other.gameObject);
 
             // Update Health Points
@@ -29,7 +31,7 @@ public class Enemy : MonoBehaviour
 
             if (healthPoints <= 0)
             {
-                Instantiate(explosionPrefab, transform.position, transform.rotation);
+                ExplosionManager.Instance.Create(transform.position, transform.rotation);
 
                 Destroy(gameObject);
             }
