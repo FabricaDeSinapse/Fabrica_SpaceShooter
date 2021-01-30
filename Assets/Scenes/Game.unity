@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 30737154}
   - component: {fileID: 30737155}
   - component: {fileID: 30737156}
+  - component: {fileID: 30737157}
   m_Layer: 0
   m_Name: Background (2)
   m_TagString: Untagged
@@ -215,6 +216,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &30737157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30737153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.05
 --- !u!1 &91765353
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +241,7 @@ GameObject:
   - component: {fileID: 91765354}
   - component: {fileID: 91765355}
   - component: {fileID: 91765356}
+  - component: {fileID: 91765357}
   m_Layer: 0
   m_Name: Stars (2)
   m_TagString: Untagged
@@ -309,6 +325,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &91765357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91765353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.075
 --- !u!1 &295153197
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +350,7 @@ GameObject:
   - component: {fileID: 295153198}
   - component: {fileID: 295153199}
   - component: {fileID: 295153200}
+  - component: {fileID: 295153201}
   m_Layer: 0
   m_Name: Planet (3)
   m_TagString: Untagged
@@ -403,6 +434,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &295153201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295153197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.1
 --- !u!1 &331462314
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +522,7 @@ GameObject:
   - component: {fileID: 404062889}
   - component: {fileID: 404062888}
   - component: {fileID: 404062890}
+  - component: {fileID: 404062891}
   m_Layer: 0
   m_Name: Planet (1)
   m_TagString: Untagged
@@ -560,6 +606,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &404062891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404062887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.1
 --- !u!1 &476973242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +1123,7 @@ GameObject:
   - component: {fileID: 1061736737}
   - component: {fileID: 1061736736}
   - component: {fileID: 1061736738}
+  - component: {fileID: 1061736739}
   m_Layer: 0
   m_Name: Planet (2)
   m_TagString: Untagged
@@ -1146,6 +1207,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1061736739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061736735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.1
 --- !u!1 &1166563985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1232,7 @@ GameObject:
   - component: {fileID: 1166563987}
   - component: {fileID: 1166563986}
   - component: {fileID: 1166563988}
+  - component: {fileID: 1166563989}
   m_Layer: 0
   m_Name: Background (1)
   m_TagString: Untagged
@@ -1240,6 +1316,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1166563989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166563985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.05
 --- !u!1 &1507011522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1636,7 @@ GameObject:
   - component: {fileID: 1956765355}
   - component: {fileID: 1956765354}
   - component: {fileID: 1956765356}
+  - component: {fileID: 1956765357}
   m_Layer: 0
   m_Name: Stars (1)
   m_TagString: Untagged
@@ -1629,3 +1720,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b3b92f0879d484c9151c1113e41477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1956765357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956765353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed11457c7a38e47b35099d85c924b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: -1, y: 0}
+  moveSpeed: 0.075
